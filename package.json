@@ -1,8 +1,11 @@
 {
-  "name": "contact-form",
+  "name": "registration-form",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thejomeister.github.io/ReactFirstTry/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d contact-form",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
